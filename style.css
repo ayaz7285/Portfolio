@@ -277,3 +277,14 @@ nav ul li span:nth-child(4) {
     transform: translateY(0);
     opacity: 1;
   }
+
+    @media only screen and (min-width:786px) {
+        #mobile-view{
+            display: none;
+        }
+    }
+    @media only screen and (max-width:787px) {
+        #laptop-view{
+            display: none;
+        }
+    }
